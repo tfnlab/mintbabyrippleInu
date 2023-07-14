@@ -47,9 +47,10 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <button onClick={handleClick}>Publish</button>
 
         <hr className="my-4" />
-        <a href="https://opensea.io/collection/bnet-1" >
-          <img src="https://meta.bnetly.com/images/bnetly.png" width="100%" alt="Bnetly" />
-        </a>
+        Contract Address: 0xd02Ef3A9A13E47DDfb8eacdd90aBEb3d6CB7dA2C
+
+        <br className="my-2" />
+        Twitter:   https://twitter.com/BabyRippleInu
         <hr className="my-4" />
         <button
           onClick={connectToMetamask}
